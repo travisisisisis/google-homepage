@@ -1,0 +1,151 @@
+body {
+	background-color: white;
+	margin: 0;
+	margin-top: 15px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+li {
+	float: right;
+}
+
+#footer {
+	background-color: #e6e6e6;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #cccccc;
+}
+
+.footer1 {
+	float: left;
+}
+
+.footer2 {
+	float: right;
+}
+
+a:link {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: #4d4d4d;
+}
+
+a:visited {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: #4d4d4d;
+}
+
+a:hover {
+	display: block;
+	padding: 8px;
+	text-decoration: underline;
+	font-size: 0.8em;
+	color: #262626;
+}
+
+#Apps {
+	padding-right: 16px;
+}
+
+
+#SignIn {
+	background-color: blue;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#SignIn:link {
+	text-decoration: none;
+}
+
+#SignIn:visited {
+	text-decoration: none;
+}
+
+#SignIn:hover {
+	text-decoration: none;
+}
+
+#logo {
+	width: 50%;
+	margin: 0 auto;
+	padding: 150px;
+}
+
+#logopic {
+	display: block;
+	margin: 0 auto;
+}
+
+#searchbox {
+	display: block;
+	margin: 0 auto;
+	border: solid 1px #a6a6a6;
+	padding: 0.5em;
+	font-size: 18px;
+	width: 80%;
+}
+.button {
+	font-size: 12px;
+	background-color: #e6e6e6;
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	color: #666666;
+	border: none;
+	padding: 10px;
+}
+
+.button:link {
+	text-decoration: none;
+}
+
+.button:visited {
+	text-decoration: none;
+}
+
+.button:hover {
+	font-weight: bolder;
+	color: #4d4d4d;
+	background-color: #f2f2f2;
+	border: solid 1px #a6a6a6;
+	border-radius: 3px;
+}
+
+#unwrap {
+	text-align: center;
+}
+
+#unwrapped {
+	display: block;
+	margin: 0 auto;
+}
+
+ /* #logo { 
+ 		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  }
+
+  #search {
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  } */
